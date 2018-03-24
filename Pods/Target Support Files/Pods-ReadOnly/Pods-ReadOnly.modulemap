@@ -1,0 +1,6 @@
+framework module Pods_ReadOnly {
+  umbrella header "Pods-ReadOnly-umbrella.h"
+
+  export *
+  module * { export * }
+}
