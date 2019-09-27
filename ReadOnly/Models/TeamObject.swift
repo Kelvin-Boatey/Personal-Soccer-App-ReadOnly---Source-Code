@@ -89,20 +89,20 @@ class TeamObject: Glossy {
         return [
             "Team Code",
             "Strength" ,
-            "League Position" ,
-            "Games Played" ,
-            "Games Won" ,
-            "Games Lost" ,
-            "Games Drawn" ,
-            "Team Points" ,
-            "Team Form" ,
+//            "League Position" ,
+//            "Games Played" ,
+//            "Games Won" ,
+//            "Games Lost" ,
+//            "Games Drawn" ,
+//            "Team Points" ,
+//            "Team Form" ,
             "Overall Strength Home" ,
             "Overall Strength Away" ,
             "Strength Attack Home" ,
             "Strength Attack Away" ,
             "Strength Defense Home" ,
             "Strength Defense Away" ,
-            "Team Division" 
+//            "Team Division"
         ]
     }
 
