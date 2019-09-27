@@ -13,7 +13,7 @@ import Gloss
 class TeamService: NSObject {
 
     class func getData(_ completion: @escaping (_ response: DataResponse?) -> Void) {
-        Alamofire.request("https://fantasy.premierleague.com/drf/bootstrap-static").responseJSON { (aResponse) in
+        Alamofire.request("https://fantasy.premierleague.com/api/bootstrap-static/").responseJSON { (aResponse) in
            /// print(aResponse)
             
             let jsonResponse = DataResponse(json: aResponse.result.value as! JSON)

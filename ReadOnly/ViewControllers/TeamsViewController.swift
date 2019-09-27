@@ -23,7 +23,7 @@ class TeamsViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         TeamService.getData { (aResponse) in
-            print(aResponse)
+            print(aResponse!)
             self.teams = (aResponse?.TeamObject)!
             self.aResponse = aResponse
             self.tableView.reloadData()
